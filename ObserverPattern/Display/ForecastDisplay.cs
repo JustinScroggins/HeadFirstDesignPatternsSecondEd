@@ -22,6 +22,7 @@ namespace ObserverPattern.Display
         {
             this.lastPressure = this.currentPressure;
             this.currentPressure = weatherData.GetPressure();
+            Display();
         }
 
         public void Display()
